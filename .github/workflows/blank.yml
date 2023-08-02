@@ -12,6 +12,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: arifyunando/metrics@latest
+      - uses: arifyunando/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
