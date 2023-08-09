@@ -16,7 +16,6 @@ jobs:
     steps:
       - uses: arifyunando/metrics@master
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
           filename: medias.svg
           token: ${{ secrets.TOKEN }}
           base: ""
