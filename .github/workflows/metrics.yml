@@ -5,7 +5,7 @@
 name: Metrics
 on:
   # 🌏 Think about the planet! No need to update stats too frequently
-  schedule: [{cron: "15 * * * *"}]
+  schedule: [{cron: "30 6,18 * * *"}]
   # 💡 The following line lets you run workflow manually from the action tab!
   workflow_dispatch:
 jobs:
@@ -14,31 +14,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: arifyunando/metrics@master
-        with:
-          filename: medias.svg
-          token: ${{ secrets.TOKEN }}
-          base: ""
-          config_order: anilist, music
-          plugin_anilist: yes
-          plugin_anilist_medias: anime
-          plugin_anilist_sections: favorites, characters
-          plugin_anilist_limit: 2
-          plugin_anilist_limit_characters: 22
-          plugin_music: yes
-          plugin_music_limit: 9
-
-      - name: 🦑 Achievements
-        if: ${{ success() || failure() }}
-        uses: arifyunando/metrics@master
-        with:
-          filename: achievements.svg
-          token: ${{ secrets.TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_fortune: yes
-
       - name: 🦑 General
         if: ${{ success() || failure() }}
         uses: arifyunando/metrics@master
@@ -61,3 +36,13 @@ jobs:
           plugin_notable: yes
           plugin_discussions: yes
           
+      - name: 🦑 Achievements
+        if: ${{ success() || failure() }}
+        uses: arifyunando/metrics@master
+        with:
+          filename: achievements.svg
+          token: ${{ secrets.TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_fortune: yes
