@@ -1139,7 +1139,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 144kb of code in 88 edited files across 47 commits over last 14 days</small>
+                <small>estimation from 134kb of code in 74 edited files across 43 commits over last 11 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -1157,8 +1157,8 @@
                                 Fortran
                             </div>
                             <small>
-                                <div>3.60k lines</div>
-                                <div>125 kB</div>
+                                <div>3.31k lines</div>
+                                <div>118 kB</div>
                                 <div>100%</div>
                             </small>
                         </div>
@@ -1385,7 +1385,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 4 Sept 2023, 06:42:59  with lowlighter/metrics@3.34.0-beta</span>
+                <span>Last updated 4 Sept 2023, 18:38:16  with lowlighter/metrics@3.34.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
