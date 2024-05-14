@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="953" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="933" class="">
     <defs>
         <style/>
     </defs>
@@ -1144,14 +1144,13 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 1.21mb of code in 191 edited files across 20 commits over last 14 days</small>
+                <small>estimation from 1.15mb of code in 174 edited files across 16 commits over last 9 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="438.366143900781" height="8" fill="#4d41b1"/>
-                    <rect mask="url(#languages-bar)" x="438.366143900781" y="0" width="21.633856099218942" height="8" fill="#C1F12E"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="460" height="8" fill="#4d41b1"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1165,20 +1164,7 @@
                             <small>
                                 <div>36.1k lines</div>
                                 <div>1.06 MB</div>
-                                <div>95.3%</div>
-                            </small>
-                        </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#C1F12E" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Batchfile
-                            </div>
-                            <small>
-                                <div>1.48k lines</div>
-                                <div>52.5 kB</div>
-                                <div>4.7%</div>
+                                <div>100%</div>
                             </small>
                         </div>
                     </section>
@@ -1400,7 +1386,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 14 May 2024, 06:40:52  with lowlighter/metrics@3.34.0-beta</span>
+                <span>Last updated 14 May 2024, 18:39:43  with lowlighter/metrics@3.34.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
